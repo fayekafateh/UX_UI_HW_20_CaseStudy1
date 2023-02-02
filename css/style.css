@@ -66,6 +66,11 @@ h5{
 .customNav{
     background-color: #353535;
     padding-top: 20px 10px ;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin-top: -2.5rem;
+    z-index: 2;
 }
 
 .dropdown-menu-text a{
@@ -89,15 +94,22 @@ h5{
     color: white !important;
 }
 
+.navbar-toggler{
+    background-color: #9BC698;
+}
 .navbar-nav{
     margin-left: auto;
     margin-right: 0 !important;
 }
 
 .navbar-brand img{
-    width: 50px !important;
+    height: 45px;
+    margin-left: 10px;
 }
 
+.MyLogo{
+    height: 40px;
+}
 /* HERO SECTION */
 
 .heroSection{
@@ -105,7 +117,7 @@ h5{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 414px;
+    height: 445px;
     display: flex;
     justify-content: center;
     margin-top: 5vh;
@@ -135,6 +147,8 @@ h5{
 .coverimg{
     height: 490px;
 }
+
+/* RESEARCH SECTION----------------------------- */
 
 /* interview plan */
 .flex{
