@@ -94,8 +94,8 @@ h5{
     margin-right: 0 !important;
 }
 
-.navbar-brand{
-    width: 20px;
+.navbar-brand img{
+    width: 50px !important;
 }
 
 /* HERO SECTION */
