@@ -1,0 +1,173 @@
+
+body{
+    font-family: 'Comfortaa', cursive;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 18pt;
+}
+
+h5{
+    font-family: 'Cinzel Decorative', cursive;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14pt;
+    color: #763D14;
+}
+
+.HLeft{
+    transform: translateX(11vw);
+    margin-bottom: 3rem;
+}
+
+.HCenter{
+    text-align: center;
+}
+
+.titleRunners{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #48742C;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 0.5px;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.divider{
+    transform: translateX(13vw);
+    width: 1135px;
+    height: 3px;
+    background-color: #48742C;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+.heading{
+    color: #763D14;
+}
+
+.heading2{
+    color: #763D14;
+    margin-bottom: 30px;
+}
+
+/* NAVBAR */
+
+.customNav{
+    background-color: #353535;
+    padding-top: 20px 10px ;
+}
+
+.dropdown-menu-text a{
+    color: #353535;
+
+}
+
+.dropdown-menu-text{
+    margin-left: -100px;
+}
+
+.dropdown-menu{
+    background-color: #353535;
+}
+
+.dropdown-item:hover{
+    background-color: #FF8B94;
+}
+
+.customNav a{
+    color: white !important;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navbar-brand{
+    width: 20px;
+}
+
+/* HERO SECTION */
+
+.heroSection{
+    background-image: url(../images/GotToGo/Cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 414px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.display-4{
+    color: #763D14;
+    text-align: left;
+    font-size: 36pt;
+    transform: translateX(25vw);
+}
+
+.lead{
+    color: #48742C;
+    font-size: 16pt;
+    text-align: left;
+    transform: translateX(25vw);
+}
+
+.lead2{
+    color: #353535;
+    font-size: 16pt;
+    text-align: left;
+    transform: translateX(25vw);
+}
+
+.coverimg{
+    height: 490px;
+}
+
+/* interview plan */
+.flex{
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+}
+
+.circleG{
+    background-color: #CEE3CC;
+    display: flex;
+    width: 171px;
+    height: 171px;
+    border-radius: 85.5px;
+    align-self: center;
+    justify-content: center;
+}
+.circleGtext{
+    align-self: center;
+    text-align: center;
+    
+}
+.circleP{
+    background-color: #F7A2A5;
+    display: flex;
+    width: 171px;
+    height: 171px;
+    border-radius: 85.5px;
+    align-self: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.circlePtext{
+    align-self: center;
+    text-align: center;
+}
