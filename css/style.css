@@ -27,16 +27,23 @@ h5{
 .HLeft{
     transform: translateX(11vw);
     margin-bottom: 3rem;
+    font-weight: 700;
 }
 
 .HCenter{
     text-align: center;
+    font-weight: 700;
 }
 
 .HCenterG{
     text-align: center;
     color: #48742C;
-    font-size: 15pt;
+    
+    margin: 20px 0px;
+}
+
+.HLeftG{
+    color: #48742C;
     margin: 20px 0px;
 }
 
@@ -130,6 +137,12 @@ h5{
     margin-top: 5vh;
 }
 
+.herocontainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
 .display-4{
     color: #763D14;
     text-align: left;
@@ -210,4 +223,58 @@ h5{
     text-align: center;
     padding: 30px 0px;
     margin: 30px 0px;
+}
+
+
+/* User Persona */
+.usrPersn{
+    width: 100%;
+}
+
+.Pbold{
+    font-weight: 700;
+}
+
+/* User Insight and problem statement */
+.PCenter{
+    text-align: center;
+}
+
+
+/* IDEATION------------------------------------------------- */
+.DotVote{
+    width: 90%;
+    justify-content: center;
+}
+
+.flexImg{
+    display: flex;
+    justify-content: center;
+}
+
+.FeaturePrior{
+    width: 80%;
+    justify-content: center;
+}
+
+.UserJour{
+    width: 80%;
+    justify-content: center;
+}
+
+.CompAnalysis{
+    width: 80%;
+    justify-content: center;
+}
+
+/* User Testing */
+
+.Matrix2x2{
+    width: 100%;
+}
+
+/* PROTOTYPING------------------------------------------------------------- */
+
+img{
+    width: 100%;
 }
