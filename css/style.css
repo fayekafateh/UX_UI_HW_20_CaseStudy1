@@ -75,6 +75,43 @@ h5{
     margin-bottom: 30px;
 }
 
+button{
+    background-color: #FF8B94;
+    color: white;
+    border: 0pt;
+    border-radius:0px 30px 0px 30px;
+    padding: 17px 53px;
+    font-weight: 400;
+    font-size: 14pt;
+    width: 284px;
+    cursor: pointer;
+    filter: drop-shadow(0px 3px 2px grey);
+}
+
+button:hover{
+    background-color: #48742C;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 6px #FF8B94;
+    transition: 400ms;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
 /* NAVBAR */
 
 .customNav{
@@ -277,4 +314,34 @@ h5{
 
 .phone{
     width: 100%;
+}
+
+.gtgprototypecontainer{
+    display: flex;
+    align-items: center;
+    /* margin-left: 15%; */
+    padding: 5vw 0vw 5vw 10vw;
+    background-color: #9BC698;
+    width: 100%;
+    
+}
+
+.pVerticalC{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-align: left;
+    /* color: white; */
+    font-weight: 800;
+}
+
+/* Footer------------------------------------------------ */
+
+#footerGrid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 75%;
+    grid-template-areas: 
+    "contactheadline"
+    "contactInput";
 }
