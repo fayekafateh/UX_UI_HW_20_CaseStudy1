@@ -335,13 +335,100 @@ a:active{
 }
 
 /* Footer------------------------------------------------ */
+.footerlogo{
+    margin-left: 55px;
+    /* margin-top: 20px; */
+}
+
+.footerlogo img{
+    margin-top: 20px;
+}
+
+.footerTitle{
+    color: #48742C;
+    font-size: 16pt;
+}
 
 #footerGrid{
     display: grid;
     justify-content: center;
-    grid-template-columns: 100%;
-    grid-template-rows: 25% 75%;
+    grid-template-columns: 33% 36% 30%;
+    grid-template-rows: 100%;
     grid-template-areas: 
-    "contactheadline"
-    "contactInput";
+    "footercolumn1 footercolumn2 footercolumn3";
+}
+
+.footercolumn1{
+    grid-area: footercolumn1;
+}
+
+.footercolumn2{
+    grid-area: footercolumn2;
+}
+
+.footercolumn3{
+    grid-area: footercolumn3;
+}
+
+footer{
+    background-image: url(../images/Footer/Creeper\ Background\ Peach3.png);
+    background-size: cover;
+    margin-top: 5rem;
+    height: 350px;
+}
+
+.footercontents{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 13pt;
+    font-weight: 900;
+    color: #763D14;
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.footerIcons{
+    display: flex;
+    margin-left: 40px;
+
+}
+
+.icons2{
+    background-color: #763D14;
+    padding:20px;
+    border-radius:60% 0% 60% 0%;
+    display: flex;
+    align-items: center;
+}
+
+.icons2 img{
+    width: 40px;
+}
+
+@media only screen and (max-width:760px){
+
+    #footerGrid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 39% 30%;
+    grid-template-areas: 
+    "footercolumn1"
+    "footercolumn2"
+    "footercolumn3";}
+
+    footer{
+        height: 700px;
+    }
+
 }
