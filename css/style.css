@@ -4,6 +4,18 @@ body{
     width: 100%;
 }
 
+body::-webkit-scrollbar{
+    width: 1rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: rgb(31, 31, 31);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #FF8B94;
+}
+
 h1{
     font-family: 'Cinzel Decorative', cursive;
     width: 100%;
@@ -98,18 +110,22 @@ button:hover{
 
 a:link{
     text-decoration: none;
+    color: #763D14;
 }
 
 a:visited{
     text-decoration: none;
+    color: #763D14;
 }
 
 a:hover{
     text-decoration: none;
+    color: #FF8B94;
 }
 
 a:active{
     text-decoration: none;
+    color: #763D14;
 }
 
 /* NAVBAR */
@@ -203,6 +219,7 @@ a:active{
 
 .coverimg{
     height: 490px;
+    border-radius: 3rem;
 }
 
 /* RESEARCH SECTION----------------------------- */
@@ -252,6 +269,7 @@ a:active{
     text-align: center;
     padding: 30px 0px;
     margin: 30px 0px;
+    border-radius: 3rem;
 }
 
 .userComments2{
@@ -260,6 +278,7 @@ a:active{
     text-align: center;
     padding: 30px 0px;
     margin: 30px 0px;
+    border-radius: 3rem;
 }
 
 
@@ -323,6 +342,7 @@ a:active{
     padding: 5vw 0vw 5vw 10vw;
     background-color: #9BC698;
     width: 100%;
+    border-radius: 3rem;
     
 }
 
@@ -409,10 +429,23 @@ li{
     border-radius:60% 0% 60% 0%;
     display: flex;
     align-items: center;
+    margin: 0px 10px;
 }
 
 .icons2 img{
     width: 40px;
+}
+
+.emailicon:hover{
+    background-color: #FF8B94;
+    scale: 1.2;
+    transition-duration: 300ms;
+}
+
+.Linkedinicon:hover{
+    background-color: #FF8B94;
+    scale: 1.2;
+    transition-duration: 300ms;
 }
 
 @media only screen and (max-width:760px){
